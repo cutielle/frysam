@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fry Samaritans: Food Station │ Home</title>
+    <link rel="icon" href="../PICTURES/BusLogo.jpg" />
+    <script
+      src="https://kit.fontawesome.com/dec0e53978.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="head">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="../PICTURES/BusLogo.jpg" alt="Logo"
+          /></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="../index.html" class="nav-items">Home</a></li>
+            <li><a href="../html/about.html" class="nav-items">About</a></li>
+            <li><a href="../html/menu.html" class="nav-items">Menu</a></li>
+            <li>
+              <a href="../html/review.html" class="nav-items-active">Review</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nav-mobile">
+        <i class="fa-solid fa-bars" id="showMenu"></i>
+        <ul id="sidemenu">
+          <li><a href="../index.html" class="nav-items">Home</a></li>
+          <li><a href="../html/about.html" class="nav-items">About</a></li>
+          <li><a href="../html/menu.html" class="nav-items">Menu</a></li>
+          <li>
+            <a href="../html/review.html" class="nav-items-active">Review</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-header">
+        <img src="../PICTURES/review.png" alt="Food" />
+      </div>
+    </div>
+
+    <div class="review-wrapper">
+      <div class="reviewer-container">
+        <div class="RevTitle">
+          <h1>Reviews</h1>
+          <br /><br />
+        </div>
+        <div class="reviewer-items">
+          <div class="reviewer" id="RevOne">
+            <div class="reviewer-profile">
+              <img src="../PICTURES/revOne.png" alt="Profile Picture" />
+              <div class="profile-info">
+                <span>Ms.Altheya Bayani</span>
+                <p>BS Agricultural Bio-Engineering<br />| 1st Year Student</p>
+              </div>
+            </div>
+            <div class="rev-separator"></div>
+            <div class="review-info">
+              <p>
+                The tongkatsu around CAS is one of my preferred meals, since
+                their products meet my tastes in food. It taste better when you
+                add up some sauce. That's why a lot of students in PSAU want
+                this dish.
+              </p>
+            </div>
+          </div>
+
+          <div class="reviewer" id="RevTwo">
+            <div class="reviewer-profile">
+              <img src="../PICTURES/revTwo.png" alt="Profile Picture" />
+              <div class="profile-info">
+                <span>Ms.Antoneth Hipolito</span>
+                <p>BS Entrepreneurship <br />| 1st Year Student</p>
+              </div>
+            </div>
+            <div class="rev-separator"></div>
+            <div class="review-info">
+              <p>
+                I like their business because they don't just stick to one type
+                of product to offer which is their main business which is fried
+                pork and chicken because they also have drinks to offer.
+              </p>
+            </div>
+          </div>
+
+          <div class="reviewer" id="RevThree">
+            <div class="reviewer-profile">
+              <img src="../PICTURES/revThree.png" alt="Profile Picture" />
+              <div class="profile-info">
+                <span>Mr.CJ Bulanadi</span>
+                <p>BS Civil Engineering<br />| 1st Year Student</p>
+              </div>
+            </div>
+            <div class="rev-separator"></div>
+            <div class="review-info">
+              <p>
+                The food is delicious and it's worth it for a cheap price. The
+                customer service is also good because they serve you the food
+                while smiling. A 10 out of 10!
+              </p>
+            </div>
+          </div>
+
+          <div class="reviewer" id="RevFour">
+            <div class="reviewer-profile">
+              <img src="../PICTURES/revFour.png" alt="Profile Picture" />
+              <div class="profile-info">
+                <span>Mr.Benedict Miranda</span>
+                <p>BS Computer Engineering<br />| 1st Year Student</p>
+              </div>
+            </div>
+            <div class="rev-separator"></div>
+            <div class="review-info">
+              <p>
+                Their Food is good! I really enjoyed their variety of condiments
+                that you could apply in their food, and at the same time, the
+                price is affordable alongside its premium taste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rate">
+      <h1>Rate Us</h1>
+      <p>
+        We'd love to hear back from you. Please share your thoughts with us
+        below.
+      </p>
+      <hr />
+    </div>
+    <div class="form">
+      <form>
+        <div class="form-row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="form-row">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone #:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="\+?\d{8,9}"
+            required
+            value="+63"
+            onfocus="this.value = '';"
+            onblur="if (this.value == '') {this.value = '+63';}"
+          />
+        </div>
+        <div class="form-row">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="intro">
+        <p>For more information, contact here:</p>
+      </div>
+
+      <div class="socials">
+        <div id="Facebook">
+          <a
+            href="https://www.facebook.com/frysamaritans.friednoodles"
+            target="_blank"
+          >
+            <img src="../PICTURES/Facebook.png" alt="Facebook" />
+            <p>Fry Samaritans: Food Station</p>
+          </a>
+        </div>
+        <div id="Telephone">
+          <a href="tel:+09165505626" target="_blank">
+            <img src="../PICTURES/Phone.png" alt="Telephone" />
+            <p>09165505626</p>
+          </a>
+        </div>
+        <div id="Gmail">
+          <a href="mailto: ralphian.aquino@gmail.com" target="_blank">
+            <img src="../PICTURES/Gmail.png" alt="Instagram" />
+            <p>ralphian.aquino@gmail.com</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="closing">
+        <p>&copy; 2019: Fry Samaritans - Food Station</p>
+      </div>
+    </div>
+
+    <script type="module" src="../js/script.js"></script>
+  </body>
+</html>
